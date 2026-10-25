@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification of Organisms</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 Life Atlas</h1>
+    <p>Explore the Classification of Living Organisms</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#kingdoms">Kingdoms</a>
+    <a href="#classification">Classification</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Discover the Living World!</h2>
+    <p>
+        Learn how scientists classify organisms into different groups
+        based on their characteristics.
+    </p>
+    <button onclick="document.getElementById('kingdoms')
+        .scrollIntoView({behavior:'smooth'})">
+        Explore Kingdoms ↓
+    </button>
+</div>
+
+<section id="kingdoms">
+    <h2 class="section-title">The Six Kingdoms of Life</h2>
+
+    <div class="cards">
+
+        <div class="card" data-cell="eukaryote"
+            data-search="animalia animals dog fish bird butterfly human">
+            <div class="emoji">🦋</div>
+            <h3>1. Animalia</h3>
+            <p><b>Group:</b> Animals</p>
+            <p>Multicellular organisms that obtain food by consuming other organisms.</p>
+            <p><b>Examples:</b> Dogs, birds, fish, humans</p>
+            <div class="details">
+                Animal cells do not have cell walls.
+                Most animals can move during at least one
+                stage of their life.
+            </div>
+        </div>
+
+        <div class="card" data-cell="eukaryote"
+            data-search="plantae plants tree grass moss fern flower">
+            <div class="emoji">🌳</div>
+            <h3>2. Plantae</h3>
+            <p><b>Group:</b> Plants</p>
+            <p>Most plants make their own food through photosynthesis.</p>
+            <p><b>Examples:</b> Trees, grass, mosses, ferns</p>
+            <div class="details">
+                Plant cells have cellulose cell walls.
+                Most plants contain chloroplasts that help
+                them perform photosynthesis.
+            </div>
+        </div>
+
+        <div class="card" data-cell="eukaryote"
+            data-search="fungi mushroom yeast mould mold fungus">
+            <div class="emoji">🍄</div>
+            <h3>3. Fungi</h3>
+            <p><b>Group:</b> Fungi</p>
+            <p>Organisms that absorb nutrients from their surroundings.</p>
+            <p><b>Examples:</b> Mushrooms, yeast, mould</p>
+            <div class="details">
+                Fungi have cell walls containing chitin.
+                Many fungi decompose dead material and
+                recycle nutrients in ecosystems.
+            </div>
+        </div>
+
+        <div class="card" data-cell="eukaryote"
+            data-search="protista amoeba paramecium euglena algae protist">
+            <div class="emoji">🧫</div>
+            <h3>4. Protista</h3>
+            <p><b>Group:</b> Protists</p>
+            <p>A diverse group of mostly single-celled eukaryotes.</p>
+            <p><b>Examples:</b> Amoeba, Paramecium, Euglena</p>
+            <div class="details">
+                Some protists make their own food, while
+                others obtain food from other organisms.
+                This is a traditional classification group.
+            </div>
+        </div>
+
+        <div class="card" data-cell="prokaryote"
+            data-search="eubacteria bacteria e coli lactobacillus">
+            <div class="emoji">🦠</div>
+            <h3>5. Eubacteria</h3>
+            <p><b>Group:</b> Common bacteria</p>
+            <p>Single-celled organisms without a membrane-bound nucleus.</p>
+            <p><b>Examples:</b> E. coli, Lactobacillus</p>
+            <div class="details">
+                Bacteria occur in many environments.
+                Some are beneficial, while others can
+                cause diseases.
+            </div>
+        </div>
+
+        <div class="card" data-cell="prokaryote"
+            data-search="archaea archaebacteria methanogens halophiles">
+            <div class="emoji">🌋</div>
+            <h3>6. Archaea</h3>
+            <p><b>Group:</b> Archaea</p>
+            <p>Single-celled prokaryotes distinct from bacteria.</p>
+            <p><b>Examples:</b> Methanogens, salt-loving archaea</p>
+            <div class="details">
+                Some archaea live in extreme environments,
+                while others live in ordinary habitats.
+                Their cell chemistry differs from bacteria.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="classification">
+    <h2 class="section-title">How Are Organisms Classified?</h2>
+
+    <div class="info">
+        <h3>🔬 Classification Process</h3>
+
+        <p><b>1. Kingdom:</b> A broad group of organisms.</p>
+
+        <p><b>2. Phylum:</b> Groups organisms within a kingdom.</p>
+
+        <p><b>3. Class:</b> Divides a phylum into smaller groups.</p>
+
+        <p><b>4. Order:</b> Divides a class into smaller groups.</p>
+
+        <p><b>5. Family:</b> Groups related genera.</p>
+
+        <p><b>6. Genus:</b> Groups closely related species.</p>
+
+        <p><b>7. Species:</b> A basic classification unit.</p>
+
+        <hr>
+
+        <h3>Example: Human Classification</h3>
+        <p>
+            Kingdom: Animalia<br>
+            Phylum: Chordata<br>
+            Class: Mammalia<br>
+            Order: Primates<br>
+            Family: Hominidae<br>
+            Genus: Homo<br>
+            Species: Homo sapiens
+        </p>
+
+        <p>
+            <b>Note:</b> Modern biology also uses three domains:
+            Bacteria, Archaea, and Eukarya.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Life Atlas | Learning Biology Made Interactive 🌱</p>
+</footer>
+
+</body>
+</html>
